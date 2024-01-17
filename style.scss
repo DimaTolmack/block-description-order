@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 600px;
+  max-width: 1440px;
   font-family: 'Montserrat', sans-serif;
 
   .col-header {
@@ -15,6 +15,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 
+    .wrapper__list__item {
+      display: flex;
+    }
 
     .wrapper__list__item__p-red {
       color: rgb(209, 53, 40);
@@ -40,12 +43,7 @@
       line-height: 25px;
       color: white;
       border-radius: 15%;
-      /*
-      Цвета карточек
-      2-#9da3a7
-      3-#c8cbc8
-      4-#f1f2ed
-      */
+
       &:nth-child(1) {
         background-color: #524442;
       }
@@ -66,6 +64,7 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 10px;
+
     }
 
   }
