@@ -10,104 +10,158 @@
     <title>Document</title>
 </head>
 <body>
-<div class="wrapper">
-    <div class="col">
-        <p class="col-header">
-            Характеристики
-        </p>
-        <div class="wrapper__list">
-            <div class="wrapper__list__item">
-                <img src="./icons/icon_fire.svg" alt="" class="wrapper-icons">
-                <!------------Можно оберунть текст в div а дивчику display--------->
-                <div class="item">
-                <p class="wrapper__list__item__p-red">
-                    Предел огнестойкости :
-                </p>
-                <p class="wrapper__list__item__p">
-                    EI-60 и EIS-60
-                </p>
+<div class="container-description-order">
+    <div class="wrapper">
+        <div class="column">
+            <p class="column__header">
+                Характеристики
+            </p>
+
+            <div class="column__list">
+                <!--------img обернуть в div ------>
+                <div class="column__list-item">
+                    <img src="./icons/icon_fire.svg" alt="" class="column__item-preview">
                 </div>
+                <div class="column__list-item">
+                    <div class="list-wrapper">
+                        <p class="list-item text-red">
+                            Предел огнестойкости:
+                        </p>
+                        <p class="list-item">
+                            EI-60 и EIS-60
+                        </p>
+                    </div>
+                </div>
+                </div>
+
+
+
+                <div class="column__list">
+                    <div class="column__list-item">
+                        <img src="./icons/icon_width.svg" alt="" class="column__item-preview">
+                    </div>
+
+                    <div class="list-wrapper">
+                        <p class="list-item text-red">
+                            Ширина:
+                        </p>
+                        <p class="list-item">
+                            600мм - 1160мм
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="column__list">
+                    <div class="column__list-item">
+                        <img src="./icons/icon_heidth.svg" alt="" class="column__item-preview">
+                    </div>
+                    <div class="list-wrapper">
+                        <p class="list-item text-red">
+                            Высота:
+                        </p>
+                        <p class="list-item">
+                            1300мм - 2350мм
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="column__list">
+                    <div class="column__list-item">
+                        <img src="./icons/icon_weight.svg" alt="" class="column__item-preview">
+                    </div>
+
+
+                    <div class="list-wrapper">
+                        <p class="list-item text-red">
+                            Вес:
+                        </p>
+                        <p class="list-item">
+                            40 - 110кг
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="column__list">
+                    <div class="column__list-item">
+                        <img src="./icons/icon_palette.svg" alt="" class="column__item-preview">
+                    </div>
+
+                    <div class="list-wrapper">
+                        <p class="list-item text-red">
+                            Стандартные цвета :
+                        </p>
+                        <p class="list-item">
+                            Согласно каталогу RAL
+                        </p>
+                    </div>
+
+                </div>
+
+            <div class="column__card">
+                <div class="column__card-item ">RAL 8017</div>
+                <div class="column__card-item ">AL 7040</div>
+                <div class="column__card-item ">RAL 7035</div>
+                <div class="column__card-item ">RAL 9016</div>
+
             </div>
 
-            <div class="wrapper__list__item">
-                <img src="./icons/icon_width.svg" alt="" class="wrapper-icons">
+            <a href="#" class="column__link">Смотреть весь каталог RAL</a>
 
-                <p class="wrapper__list__item__p-red">
-                    Ширина:
-                </p>
-                <p class="wrapper__list__item__p">
-                    600мм - 1160мм
-                </p>
-            </div>
-
-            <div class="wrapper__list__item">
-                <img src="./icons/icon_heidth.svg" alt="" class="wrapper-icons">
-
-                <p class="wrapper__list__item__p-red">
-                    Высота :
-                </p>
-                <p class="wrapper__list__item__p">
-                    1300мм - 2350мм
-                </p>
-            </div>
-
-            <div class="wrapper__list__item">
-                <img src="./icons/icon_weight.svg" alt="" class="wrapper-icons">
-                <p class="wrapper__list__item__p-red">
-                    Вес :
-                </p>
-                <p class="wrapper__list__item__p">
-                    40 - 110кг
-                </p>
-            </div>
-
-            <div class="wrapper__list__item">
-                <img src="./icons/icon_palette.svg" alt="" class="wrapper-icons">
-
-                <p class="wrapper__list__item__p-red">
-                    Стандартные цвета :
-                </p>
-                <p class="wrapper__list__item__p">
-                    Согласно каталогу RAL
-                </p>
             </div>
         </div>
-        <!-------------------------------------------------------------------------->
-        <div class="wrapper-card">
-            <div class="wrapper-card__item">RAL <br> 8017</div>
-            <div class="wrapper-card__item">AL <br> 7040</div>
-            <div class="wrapper-card__item">RAL <br>7035</div>
-            <div class="wrapper-card__item">RAL <br>9016</div>
 
-        </div>
+<!-------------------------------------------------->
 
-        <a href="#" class="wrapper__link">Смотреть весь каталог RAL</a>
+        <div class="column">
 
-    </div>
-
-    <div class="wrapper-delivery">
-        <p class="col-header">
-            Время изготовления
-        </p>
-        <div class="wrapper-delivery__item">
-            <img src="./icons/icon_time.svg" alt="" class="wrapper-icons">
-            <p class="wrapper__p">
-                от 10 дней
+            <p class="column__header">
+                Время изготовления
             </p>
-        </div>
 
-        <p class="col-header">
-            Способы получения
-        </p>
-        <div class="wrapper-delivery__item">
-            <img src="./icons/icon_delivery.svg" alt="" class="wrapper-icons">
-            <p class="wrapper__p">
-                Доставка по Росси и СНГ
+            <div class="column__list">
+                <div class="column__list-item">
+                    <img src="./icons/icon_time.svg" alt="" class="column__item-preview">
+                </div>
+                <div class="column__list-item">
+                    <p class="list-item">
+                        от 10 дней
+                    </p>
+                </div>
+
+            </div>
+
+
+            <p class="column__header">
+                Способы получения
             </p>
+
+
+            <div class="column__list">
+
+                <div class="column__list-item">
+                    <img src="./icons/icon_delivery.svg" alt="" class="wrapper-icons">
+                  </div>
+
+                <div class="column__list-item">
+                    <p class="list-item">
+                        Доставка по Росси и СНГ
+                    </p>
+                </div>
+
+                </div>
+
+            </div>
+
+
         </div>
-
     </div>
-
 </div>
+<script src="script.js"></script>
+<script src="modal.js"></script>
 </body>
 </html>

@@ -1,58 +1,139 @@
-.wrapper {
+.container-description-order {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+.container-description-order .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1440px;
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
-.wrapper .col-header {
+@media screen and (max-width: 768px) {
+  .container-description-order .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.container-description-order .wrapper .column__header {
   font-size: 16px;
-  color: green;
+  margin-bottom: 0;
+  font-weight: bolder;
 }
-.wrapper .wrapper__list {
+@media screen and (max-width: 768px) {
+  .container-description-order .wrapper .column__header {
+    font-size: 18px;
+  }
+}
+.container-description-order .wrapper .column__list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 30px 1fr;
   grid-template-rows: 1fr;
 }
-.wrapper .wrapper__list .wrapper__list__item {
-  display: flex;
-}
-.wrapper .wrapper__list .wrapper__list__item__p-red {
+.container-description-order .wrapper .column__list .text-red {
   color: rgb(209, 53, 40);
-  font-size: 14px;
 }
-.wrapper .wrapper__list .wrapper__list__item__p {
+.container-description-order .wrapper .column__list .list-item {
   font-size: 14px;
+  margin-top: 0;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
-.wrapper .wrapper-card {
+.container-description-order .wrapper .column__list .list-wrapper {
+  padding: 0 20px;
+}
+@media screen and (max-width: 768px) {
+  .container-description-order .wrapper .column__list .list-wrapper {
+    padding: 0 90px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container-description-order .wrapper .column__list .list-wrapper {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container-description-order .wrapper .column__list .list-wrapper {
+    padding: 0 20px;
+  }
+}
+.container-description-order .wrapper .column__card {
   display: grid;
   grid-template-columns: repeat(4, 60px);
   grid-template-rows: 1fr;
   gap: 10px;
   text-align: center;
 }
-.wrapper .wrapper-card .wrapper-card__item {
+@media screen and (max-width: 768px) {
+  .container-description-order .wrapper .column__card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+.container-description-order .wrapper .column__card .column__card-item {
   width: 60px;
-  height: 58px;
+  height: auto;
   line-height: 25px;
   color: white;
-  border-radius: 15%;
+  border-radius: 10px;
 }
-.wrapper .wrapper-card .wrapper-card__item:nth-child(1) {
+@media screen and (max-width: 768px) {
+  .container-description-order .wrapper .column__card .column__card-item {
+    width: auto;
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+  }
+}
+.container-description-order .wrapper .column__card .column__card-item:nth-child(1) {
   background-color: #524442;
 }
-.wrapper .wrapper-card .wrapper-card__item:nth-child(2) {
+.container-description-order .wrapper .column__card .column__card-item:nth-child(2) {
   background-color: #9da3a7;
 }
-.wrapper .wrapper-card .wrapper-card__item:nth-child(3) {
+.container-description-order .wrapper .column__card .column__card-item:nth-child(3) {
   background-color: #c8cbc8;
 }
-.wrapper .wrapper-card .wrapper-card__item:nth-child(4) {
+.container-description-order .wrapper .column__card .column__card-item:nth-child(4) {
   background-color: #f1f2ed;
 }
-.wrapper .wrapper-card .wrapper-delivery {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
+.container-description-order .wrapper .column__link {
+  margin-top: 20px;
+  color: rgb(209, 53, 40);
+  text-decoration: underline dashed;
+}
+.container-description-order .wrapper .column__link:before {
+  content: url("./icons/arrow-icons.png");
+  position: relative;
+  top: 5px;
+}
+.container-description-order .wrapper .column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container-description-order .wrapper .column .column__list-item {
+  display: flex;
+}
+.container-description-order .wrapper .column .list-item {
+  padding: 0 20px;
+}
+@media screen and (max-width: 768px) {
+  .container-description-order .wrapper .column .list-item {
+    padding: 0 90px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container-description-order .wrapper .column .list-item {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container-description-order .wrapper .column .list-item {
+    padding: 0 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
