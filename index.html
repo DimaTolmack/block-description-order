@@ -13,94 +13,92 @@
 <div class="container-description-order">
     <div class="wrapper">
         <div class="column">
-            <p class="column__header">
+            <div class="column__header">
                 Характеристики
-            </p>
+            </div>
 
             <div class="column__list">
-                <!--------img обернуть в div ------>
                 <div class="column__list-item">
                     <img src="./icons/icon_fire.svg" alt="" class="column__item-preview">
                 </div>
                 <div class="column__list-item">
                     <div class="list-wrapper">
-                        <p class="list-item text-red">
+                        <div class="list-item text-red">
                             Предел огнестойкости:
-                        </p>
-                        <p class="list-item">
+                        </div>
+
+                        <div class="list-item">
                             EI-60 и EIS-60
-                        </p>
+                        </div>
                     </div>
                 </div>
+            </div>
+
+
+            <div class="column__list">
+                <div class="column__list-item">
+                    <img src="./icons/icon_width.svg" alt="" class="column__item-preview">
                 </div>
 
-
-
-                <div class="column__list">
-                    <div class="column__list-item">
-                        <img src="./icons/icon_width.svg" alt="" class="column__item-preview">
+                <div class="list-wrapper">
+                    <div class="list-item text-red">
+                        Ширина:
                     </div>
-
-                    <div class="list-wrapper">
-                        <p class="list-item text-red">
-                            Ширина:
-                        </p>
-                        <p class="list-item">
-                            600мм - 1160мм
-                        </p>
+                    <div class="list-item">
+                        600мм - 1160мм
                     </div>
                 </div>
+            </div>
 
 
-
-
-                <div class="column__list">
-                    <div class="column__list-item">
-                        <img src="./icons/icon_heidth.svg" alt="" class="column__item-preview">
+            <div class="column__list">
+                <div class="column__list-item">
+                    <img src="./icons/icon_heidth.svg" alt="" class="column__item-preview">
+                </div>
+                <div class="list-wrapper">
+                    <div class="list-item text-red">
+                        Высота:
                     </div>
-                    <div class="list-wrapper">
-                        <p class="list-item text-red">
-                            Высота:
-                        </p>
-                        <p class="list-item">
-                            1300мм - 2350мм
-                        </p>
+
+                    <div class="list-item">
+                        1300мм - 2350мм
                     </div>
                 </div>
+            </div>
 
 
-                <div class="column__list">
-                    <div class="column__list-item">
-                        <img src="./icons/icon_weight.svg" alt="" class="column__item-preview">
-                    </div>
-
-
-                    <div class="list-wrapper">
-                        <p class="list-item text-red">
-                            Вес:
-                        </p>
-                        <p class="list-item">
-                            40 - 110кг
-                        </p>
-                    </div>
+            <div class="column__list">
+                <div class="column__list-item">
+                    <img src="./icons/icon_weight.svg" alt="" class="column__item-preview">
                 </div>
 
 
-                <div class="column__list">
-                    <div class="column__list-item">
-                        <img src="./icons/icon_palette.svg" alt="" class="column__item-preview">
+                <div class="list-wrapper">
+                    <div class="list-item text-red">
+                        Вес:
                     </div>
-
-                    <div class="list-wrapper">
-                        <p class="list-item text-red">
-                            Стандартные цвета :
-                        </p>
-                        <p class="list-item">
-                            Согласно каталогу RAL
-                        </p>
+                    <div class="list-item">
+                        40 - 110кг
                     </div>
-
                 </div>
+            </div>
+
+
+            <div class="column__list">
+                <div class="column__list-item">
+                    <img src="./icons/icon_palette.svg" alt="" class="column__item-preview">
+                </div>
+
+                <div class="list-wrapper">
+                    <div class="list-item text-red">
+                        Стандартные цвета :
+                    </div>
+                    <div class="list-item">
+                        Согласно каталогу RAL
+                    </div>
+                </div>
+
+            </div>
 
             <div class="column__card">
                 <div class="column__card-item ">RAL 8017</div>
@@ -112,56 +110,64 @@
 
             <a href="#" class="column__link">Смотреть весь каталог RAL</a>
 
-            </div>
         </div>
 
-<!-------------------------------------------------->
+        <!-------------------------------------------------->
 
         <div class="column">
 
-            <p class="column__header">
+            <div class="column__header">
                 Время изготовления
-            </p>
+            </div>
 
             <div class="column__list">
                 <div class="column__list-item">
                     <img src="./icons/icon_time.svg" alt="" class="column__item-preview">
                 </div>
+
                 <div class="column__list-item">
-                    <p class="list-item">
+
+                    <div class="list-item">
                         от 10 дней
-                    </p>
+                    </div>
                 </div>
 
             </div>
 
-
-            <p class="column__header">
+            <div class="column__header">
                 Способы получения
-            </p>
-
-
+            </div>
             <div class="column__list">
 
                 <div class="column__list-item">
                     <img src="./icons/icon_delivery.svg" alt="" class="wrapper-icons">
-                  </div>
-
-                <div class="column__list-item">
-                    <p class="list-item">
-                        Доставка по Росси и СНГ
-                    </p>
                 </div>
 
+                <div class="column__list-item">
+                    <div class="list-item">
+                        Доставка по Росси и СНГ
+                    </div>
                 </div>
 
             </div>
 
-
         </div>
     </div>
+
+    <div class="modal" data-modal>
+        <div class="modal-wrapper">
+        <button class="modal__button-closed">
+            <img src="./icons/cross.png" alt="Крестик" class="cross">
+        </button>
+        <div class="modal-panel">
+            <img src="./icons/colors.png" alt="" class="modal-container__preview">
+        </div>
+    </div>
+
+    </div>
+
 </div>
+
 <script src="script.js"></script>
-<script src="modal.js"></script>
 </body>
 </html>
