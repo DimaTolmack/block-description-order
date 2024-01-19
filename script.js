@@ -117,7 +117,7 @@ const modal = ({triggerSelector, modalSelector, modalSelectorDisplay = 'block', 
 modal({
     modalSelector: '.modal',
     triggerSelector: '.column__link',
-    closeSelector: '.panel__button-closed',
+    closeSelector: '.panel__closed',
     /*Последние 4 аргумента идут по умолчанию их нужно удалить*/
 
 });

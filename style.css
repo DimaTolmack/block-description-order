@@ -74,7 +74,7 @@
     grid-template-rows: 1fr;
   }
 }
-.container-description-order .wrapper .column__card .column__card-item {
+.container-description-order .wrapper .column__card .card__item {
   width: 60px;
   height: auto;
   line-height: 25px;
@@ -82,22 +82,22 @@
   border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
-  .container-description-order .wrapper .column__card .column__card-item {
+  .container-description-order .wrapper .column__card .card__item {
     width: auto;
     padding: 5px 5px 5px 5px;
     font-size: 14px;
   }
 }
-.container-description-order .wrapper .column__card .column__card-item:nth-child(1) {
+.container-description-order .wrapper .column__card .card__item:nth-child(1) {
   background-color: #524442;
 }
-.container-description-order .wrapper .column__card .column__card-item:nth-child(2) {
+.container-description-order .wrapper .column__card .card__item:nth-child(2) {
   background-color: #9da3a7;
 }
-.container-description-order .wrapper .column__card .column__card-item:nth-child(3) {
+.container-description-order .wrapper .column__card .card__item:nth-child(3) {
   background-color: #c8cbc8;
 }
-.container-description-order .wrapper .column__card .column__card-item:nth-child(4) {
+.container-description-order .wrapper .column__card .card__item:nth-child(4) {
   background-color: #f1f2ed;
 }
 .container-description-order .wrapper .column__link {
@@ -177,7 +177,7 @@
   background-color: #ffffff;
   z-index: 0;
 }
-.container-description-order .modal .modal__container .modal__wrapper .panel .panel__button-closed {
+.container-description-order .modal .modal__container .modal__wrapper .panel .panel__closed {
   border: 2px solid #000000;
   line-height: 3px;
   border-radius: 50%;

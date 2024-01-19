@@ -76,7 +76,7 @@
 
       }
 
-      .column__card-item {
+      .card__item {
         width: 60px;
         height: auto;
         line-height: 25px;
@@ -188,7 +188,7 @@
           background-color:#ffffff;
           z-index:0;
 
-          .panel__button-closed {
+          .panel__closed {
             border: 2px solid #000000;
             line-height: 3px;
             border-radius: 50%;
